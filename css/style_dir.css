@@ -157,19 +157,8 @@ ul,ol {
 	background:#fff;
 	border-bottom: 0px solid #333;
 }
-.box-login i.fa-shopping-cart {
-	padding: 8px 10px 7px 10px;
-	color:#fff;
-	background: #333;
-	border: 1px solid #232323;
-	text-align: center;
-	z-index: 9999;
-	margin-right: 15px;
-}
-.box-login i.fa-shopping-cart:hover {
-	background: #232323;
-	cursor: pointer;
-}
+
+
 .cart-prod {
 	z-index: 99999;
 	float:right;
@@ -182,68 +171,6 @@ ul,ol {
 	display:none;
 }
 
-.content-cart-prod i.fa-times {
-	float:right;
-	margin-top: 5px;
-}
-.content-cart-prod i.fa-times:hover {
-	cursor:pointer;
-}
-
-.cart-prod .sec-prod {
-	position: absolute;
-	z-index: 99999;
-	box-shadow:0 1px 2px rgba(0,0,0,0.3);
-	padding:10px;
-	background:#fff;
-	width: 20%;
-	border-top:3px solid #7aa93c;
-}
-.cart-prod .sec-prod img {
-	width:40%;
-	margin-right: 15px;
-	float: left;
-}
-.cart-prod .sec-prod img.racket-img{
-	margin-top:5px;
-}
-.cart-prod .sec-prod p{
-	margin-top:10px;
-}
-.content-cart-prod {
-	width:100%;
-	float:left;
-	border-bottom:1px solid #f7f7f7;
-	font-size:13px;
-}
-.content-cart-prod:last-child {
-	border-bottom:0px solid #f7f7f7;
-}
-.cart-tot-price {
-	font-weight: 700;
-    margin-top: 20px;
-    text-align: right;
-    margin-right: 30px;
-    font-size: 14px;
-}
-.btn-cart {
-	width: 100%;
-    background: #3D464F;
-    color: #fff;
-    text-transform: uppercase;
-    float: left;
-    margin-bottom: 10px;
-    padding: 5px 10px;
-    font-size: 13px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-}
-.btn-cart:hover {
-	text-decoration: none;
-	background-color:#333;
-	color:#fff;
-}
 .box-support {
 	float:left;
 	color: #fff;
@@ -344,7 +271,7 @@ ul,ol {
 .content-result.content-result-news {
     height:750px;
 	padding:0;
-	background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.15752-9/245195382_407658427644218_6138705037629300774_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ty-z-7Zr13wAX9vYRqV&_nc_ht=scontent-atl3-1.xx&oh=143726f39955f474900f3b2b106cf3ce&oe=61839609) no-repeat 100% 100%;
+	background: url('../img/home1.jpg') no-repeat 100% 100%;
     background-position: center center; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -885,11 +812,12 @@ div.inner {
     background-size: cover;
 }
 .back-img-match {
-	background:transparent url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.15752-9/245195382_407658427644218_6138705037629300774_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ty-z-7Zr13wAX9vYRqV&_nc_ht=scontent-atl3-1.xx&oh=143726f39955f474900f3b2b106cf3ce&oe=61839609) no-repeat center center;
+	background:transparent url('../img/players3.jpg') no-repeat center center;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;	
+	background-position: right -300px;
 }
 .back-img-shop {
 	background:transparent url(http://placehold.it/1200x350) no-repeat bottom center;
@@ -1130,6 +1058,7 @@ div.inner {
 .tab-links a:hover {
     text-decoration:none;
 }
+
 .tab-links li.active a, .tab-links li.active a:hover {
 color:#fff;
 background-color: #212121;
